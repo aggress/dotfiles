@@ -14,13 +14,16 @@ Bundle 'Valloric/YouCompleteMe'
 let g:ycm_add_preview_to_completeopt=0
 let g:ycm_confirm_extra_conf=0
 set completeopt-=preview
-"Bundle 'marijnh/tern_for_vim'
+Bundle 'marijnh/tern_for_vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 
 filetype plugin indent on
+
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
 
 "Set 256 colour palette
 let &t_Co=256
