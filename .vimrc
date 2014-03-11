@@ -17,6 +17,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'tpope/vim-markdown'
 
 " Plugin settings
 let g:syntastic_check_on_open=1
