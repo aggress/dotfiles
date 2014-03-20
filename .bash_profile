@@ -10,6 +10,7 @@ alias ll='ls -al'
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias tmux="TERM=screen-256color-bce tmux"
+alias tmux-start"tmux new-session "tmux source-file ~/.tmux_session"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
