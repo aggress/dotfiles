@@ -1,0 +1,6 @@
+news
+neww
+splitw -h -p 40
+splitw -v -p 50 -t 1 
+selectw -t 0 
+selectp -t 1
