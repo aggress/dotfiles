@@ -50,3 +50,5 @@ New Machine Setup
 1. Install Homebrew packages
 
     sh resources/brew_install_packages.sh
+
+blah
