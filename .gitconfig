@@ -1,5 +1,4 @@
 [core]
-	editor = /Applications/MacVim.app/Contents/MacOS/Vim
 
 [user]
 	name = Richard Shaw
@@ -36,3 +35,7 @@
 	dlc = diff --cached HEAD^
 [push]
 	default = simple
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
